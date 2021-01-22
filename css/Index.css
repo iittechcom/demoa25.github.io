@@ -1,0 +1,140 @@
+    .img-fill img {
+        width: 500px;
+        height: 500px;
+        overflow: hidden;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    
+    .single-feedback span {
+        color: #FFF;
+    }
+    
+    .single-feedback h3 {
+        color: #FFF;
+        margin-bottom: 15px;
+        line-height: 1;
+        font-size: 70px;
+        font-weight: bolder;
+    }
+    
+    .single-feedback p {
+        color: #ffffffe8;
+    }
+    
+    .client-section {
+        padding: 50px 0px;
+        background-color: #000;
+    }
+    
+    .attention-todetail-wrapper .attention-todetail-component {
+        width: 100%;
+        height: 130vh;
+        display: flex;
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #000;
+        position: relative;
+    }
+    
+    .attention-todetail-wrapper .radial-gradient-container {
+        height: 100%;
+        height: 100%;
+        background: radial-gradient(ellipse at center, rgb(0 0 0 / 15%) 0, #000000d1 75%, #000000 95%);
+    }
+    
+    .attention-todetail-wrapper .linear-gradient-container1 {
+        height: 100%;
+        background: linear-gradient(180deg, #000000 0, #000000 1%, #000000 4%, rgb(0 0 0 / 53%) 16%, rgb(0 0 0 / 0%) 50%, rgb(0 0 0 / 1%) 51%, rgb(0 0 0 / 42%) 86%, rgb(0 0 0 / 84%) 94%, #000 97%, #000);
+    }
+    
+    .attention-todetail-wrapper .attention-todetail-component .attention-todetail-info {
+        top: 0;
+        padding: 0 0 0 10%;
+        position: relative;
+        align-self: center;
+    }
+    
+    element.style {}
+    
+    .attention-todetail-wrapper .attention-todetail-component .attention-todetail-info h2 {
+        text-align: left;
+        line-height: .92;
+        width: 42%;
+        font-size: 65px;
+        color: #FFF;
+        margin: 0;
+    }
+    
+    element.style {}
+    
+    .attention-todetail-wrapper .attention-todetail-component .attention-todetail-info .attention-todetail-subtitle {
+        font-size: 18px;
+        text-align: left;
+        padding: 24px 0;
+        width: 54%;
+        color: #fff;
+    }
+    
+    .attention-todetail-btn:hover {
+        background-color: #f7d549;
+        font-weight: 900;
+        color: #000;
+    }
+    
+    .attention-todetail-btn {
+        width: auto;
+        padding: 21px 29px;
+        margin-right: 25px;
+        min-width: 347px;
+        display: inline-block;
+        margin: 0;
+        color: #FFF;
+        font-weight: 900;
+        letter-spacing: 2.33px;
+        border: 2px solid #e6c648;
+        background: none;
+        text-align: center;
+        text-transform: uppercase;
+        transition: all .5s ease-in-out;
+    }
+    
+    .linear-gradient-container,
+    .linear-gradient-container1,
+    .radial-gradient-container {
+        height: 650px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 0;
+    }
+    
+    .room-area {
+        overflow: hidden;
+        background-color: #000;
+    }
+    
+    .content-rooms {
+        position: absolute;
+        width: 90%;
+        bottom: 15px;
+        left: 50%;
+        transform: translate(-50%, 0px);
+        background: rgba(0, 0, 0, 0.466);
+        padding: 15px;
+        color: #F7D549;
+        text-transform: uppercase;
+        font-weight: bold;
+        transition: all .5s ease-in-out;
+    }
+    
+    .content-rooms a {
+        color: #FFF;
+    }
+    
+    .item:hover .content-rooms {
+        bottom: 50%;
+        transform: translate(-50%, 50%);
+    }

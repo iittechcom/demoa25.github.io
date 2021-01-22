@@ -1,0 +1,50 @@
+.detail-service {
+    background-color: #000;
+}
+
+.owl-small {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 15px;
+    z-index: 11;
+    left: 50%;
+    transform: translate(-50%, 0px);
+}
+
+.owl-small img {
+    width: 130px;
+    height: 70px;
+    object-fit: cover;
+    padding: 10px;
+    float: left;
+}
+
+.room-info ul li {
+    color: #FFF;
+    list-style: none;
+}
+
+.room-info ul li::before {
+    color: #FFF;
+    list-style: none;
+    content: "\2713";
+    padding-right: 4px;
+}
+
+.other-service li a {
+    padding: 10px 30px;
+    background-color: #FFf;
+    width: 100%;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 600;
+}
+
+.other-service li a:hover {
+    color: #F7D549;
+}
+
+.other-service li {
+    margin-bottom: 30px;
+}
